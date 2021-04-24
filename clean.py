@@ -3,7 +3,7 @@ import string
 from bs4 import BeautifulSoup
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import wordnet
-from nltk.corpus import stopwords
+from nltk.corpus import stopwords 
 
 contractions =          {"ain't": "is not", "aren't": "are not","can't": "cannot", "'cause": "because", "could've": "could have", "couldn't": "could not",
                            "didn't": "did not",  "doesn't": "does not", "don't": "do not", "hadn't": "had not", "hasn't": "has not", "haven't": "have not",
